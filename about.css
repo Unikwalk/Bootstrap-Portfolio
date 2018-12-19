@@ -1,23 +1,31 @@
 html {
-    font-size: 1rem;
-  }
-  
+  font-size: 1rem;
+}
+
 @include media-breakpoint-up(sm) {
-  html {
-    font-size: 1.2rem;
-  }
+html {
+  font-size: 1.2rem;
+}
 }
 
 @include media-breakpoint-up(md) {
-  html {
-    font-size: 1.4rem;
-  }
+html {
+  font-size: 1.4rem;
+}
 }
 
 @include media-breakpoint-up(lg) {
-  html {
-    font-size: 1.6rem;
-  }
+html {
+  font-size: 1.6rem;
+}
+}
+
+.active {
+  font-weight: bold;
+}
+
+.active:hover{
+  font-weight: lighter;
 }
 
 /* for all body section, typography */
@@ -41,20 +49,10 @@ body {
     clear: both;
   }
   
-p:last-child {
-    margin-bottom: 0;
-  }
-  
 p {
      text-align: justify;
   }
 
-.container {
-    width: 100%;
-    max-width: 960px;
-    margin: 0 auto;
-    clear: both;
-  }
   
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Montserrat', sans-serif;
@@ -185,7 +183,6 @@ footer {
   
 h3, h2 {
     padding-bottom: 20px;
-    margin-bottom: 15px;
     line-height: 22px;
     border-bottom: 2px solid #eeeeee;
   }

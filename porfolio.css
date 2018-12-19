@@ -1,23 +1,9 @@
-html {
-  font-size: 1rem;
+.active {
+  font-weight: bold;
 }
 
-@include media-breakpoint-up(sm) {
-html {
-  font-size: 1.2rem;
-}
-}
-
-@include media-breakpoint-up(md) {
-html {
-  font-size: 1.4rem;
-}
-}
-
-@include media-breakpoint-up(lg) {
-html {
-  font-size: 1.6rem;
-}
+.active:hover{
+  font-weight: lighter;
 }
 
 /* for all body section, typography */
@@ -82,14 +68,6 @@ p {
    text-align: justify;
 }
 
-/* for about me */
-blockquote,
-cite {
-font-style: italic;
-font-size: 12px;
-line-height: 19px;
-text-align: center;
-}
 
 h1 {
 padding-bottom: 20px;
@@ -201,12 +179,10 @@ h5 {
   bottom: 0px;
   width: 100%;
   padding: 10px;
-  margin-bottom: 0;
   font-weight: lighter;
   color: #ffffff;
   text-align: center;
   background: #6A9E04;
-  border-bottom: 0;
 }
 
 /* footer */

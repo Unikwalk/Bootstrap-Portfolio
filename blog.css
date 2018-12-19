@@ -20,6 +20,14 @@ html {
 }
 }
 
+.active {
+  font-weight: bold;
+}
+
+.active:hover{
+  font-weight: lighter;
+}
+
 /* for all body section, typography */
 body {
   font-family: 'Poppins', sans-serif;
